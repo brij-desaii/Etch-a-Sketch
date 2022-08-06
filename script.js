@@ -6,7 +6,7 @@ for (let i = 0; i < 16; i++)
     const row = document.createElement('div');
     row.classList.add('row');
     
-    let item_height = (height/16)-1-1/16;
+    let item_height = (height/16)-1/16;
     item_height = item_height.toFixed(2) +"px";
     
     for (let j = 0; j < 16; j++)
@@ -55,7 +55,7 @@ function makeGrid(n)
         const row = document.createElement('div');
         row.classList.add('row');
         
-        let item_height = (height/n)-1-1/n;
+        let item_height = (height/n)-1/n;
         item_height = item_height.toFixed(2) +"px";
 
         for (let j = 0; j < n; j++)

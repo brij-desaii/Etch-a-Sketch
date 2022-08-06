@@ -17,16 +17,19 @@ body {
     justify-content: center;
     height: 500px;
     width: 500px;
+    box-sizing: border-box;
 }
 
 .row {
     display: flex;
+    box-sizing: border-box;
 }
 
 .item {
     border-color: black;
     border-width: 1px;
     border-style: solid;
+    box-sizing: border-box;
 }
 
 .draw {
